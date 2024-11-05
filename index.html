@@ -147,7 +147,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Foundation models are predominantly trained in an unsupervised or self-supervised manner on highly diverse and large-scale datasets, making them broadly applicable to various downstream tasks. In this work, we investigate for the first time whether such models are suitable for the specific domain of face recognition. We further propose and demonstrate the adaptation of these models for face recognition across different levels of data availability. Extensive experiments are conducted on multiple foundation models and datasets of varying scales for training and fine-tuning, with evaluation on a wide range of benchmarks. Our results indicate that, despite their versatility, pre-trained foundation models underperform in face recognition compared to similar architectures trained specifically for this task. However, fine-tuning foundation models yields promising results, often surpassing models trained from scratch when training data is limited. Even with access to large-scale face recognition training datasets, fine-tuned foundation models perform comparably to models trained from scratch, but with lower training computational costs and without relying on the assumption of extensive data availability. Our analysis also explores bias in face recognition, with slightly higher bias observed in some settings when using foundation models.
           </p>
         </div>
       </div>
@@ -277,7 +277,16 @@
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
+      <pre><code>
+      @misc{chettaoui2024froundationfoundationmodelsready,
+      title={FRoundation: Are Foundation Models Ready for Face Recognition?}, 
+      author={Tahar Chettaoui and Naser Damer and Fadi Boutros},
+      year={2024},
+      eprint={2410.23831},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2410.23831}, 
+}</code></pre>
     </div>
 </section>
 <!--End BibTex citation -->
@@ -288,13 +297,12 @@
     <div class="columns is-centered">
       <div class="column is-8">
         <div class="content">
-
-          <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
-          </p>
-
+          <font size="5">  
+            <p>
+              This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+              This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"> Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+          </font>
         </div>
       </div>
     </div>
