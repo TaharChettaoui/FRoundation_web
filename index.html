@@ -128,7 +128,8 @@
     <div class="hero-body">
      <iframe src="static/images/carousel1.jpg" style="border: none;"></iframe>
       <h2 class="subtitle has-text-centered">
-        ViT Training Pipeline with LoRA Adapters. The transformer layers remain fixed during training, while trainable LoRA layers are introduced to fine-tune the model. Each LoRA layer operates independently within the transformer layers and possesses its own set of weights.
+        Average verification accuracies on five benchmarks, LFW, CFPFP, AgeDB30, CALFW, CPLFW on the y-axis vs. training/finetuning dataset size, in terms of the number of identities, on the x-axis.
+        Increasing the training/finetuning dataset width (number of identities) improved the model recognition performances.
       </h2>
     </div>
   </div>
@@ -159,13 +160,13 @@
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
-        <img src="static/images/carousel1.jpg" width="500" height="600" alt="ViT Training Pipeline"/>
+        <img src="static/images/carousel1.jpg" width="1000" height="1200" alt="ViT Training Pipeline" class="center" />
         <h2 class="subtitle has-text-centered">
           ViT Training Pipeline with LoRA Adapters. The transformer layers remain fixed during training, while trainable LoRA layers are introduced to fine-tune the model. Each LoRA layer operates independently within the transformer layers and possesses its own set of weights.
         </h2>
       </div>
       <div class="item">
-        <img src="static/images/carousel2.jpg" width="500" height="600" alt="LoRA Integration MHA"/>
+        <img src="static/images/carousel2.jpg" width="600" height="700" alt="LoRA Integration MHA" class="center" />
         <h2 class="subtitle has-text-centered">
           LoRA Integration in Multi-Headed Self-Attention Block. We implement LoRA to q and v projection layers in each transformer block.
         </h2>
