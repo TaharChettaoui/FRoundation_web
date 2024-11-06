@@ -1,5 +1,8 @@
 # FRoundation: Are Foundation Models Ready for Face Recognition?
 
+Paper link : https://arxiv.org/abs/2410.23831 
+
+
 ## Acknowledgments
 Parts of this project page were adopted from the [Nerfies](https://nerfies.github.io/) page.
 
