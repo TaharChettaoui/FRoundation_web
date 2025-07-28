@@ -1,6 +1,6 @@
 # FRoundation: Are Foundation Models Ready for Face Recognition?
 
-Paper link : https://arxiv.org/abs/2410.23831 
+Paper link : https://www.sciencedirect.com/science/article/pii/S0262885625000411
 
 
 ## Acknowledgments
